@@ -1,0 +1,28 @@
+{
+  "id": "freestrongpassword-com",
+  "name": "FreeStrongPassword",
+  "domain": "freestrongpassword.com",
+  "url": "https://freestrongpassword.com",
+  "emoji": "🆓",
+  "brand": "FreeStrongPassword",
+  "angle": "FREE emphasis. No-frills, fast, clean. Targets 'free password' searches. AdSense optimised.",
+  "primaryColor": "teal",
+  "description": "100% free strong password generator — no sign-up, no limits, no catch. Just strong passwords.",
+  "shortDescription": "Free Strong Password Generator",
+  "topic": "free password generator, strong password, no sign-up",
+  "tags": [
+    "free",
+    "strong",
+    "passwords",
+    "no-signup",
+    "tools"
+  ],
+  "active": true,
+  "repo": "kokallimited2/freestrongpassword-com",
+  "deployDay": 2,
+  "deploySlot": "15:00",
+  "posts": [],
+  "defaultKeywords": "free password generator, strong password, no sign-up",
+  "blogDescription": "Guides, tips and news about free password generator, strong password, no sign-up.",
+  "generatedAt": "2026-04-26"
+}

@@ -1,0 +1,18 @@
+# FreeStrongPassword — llms.txt
+# https://llmstxt.org
+
+> 100% free strong password generator — no sign-up, no limits, no catch. Just strong passwords.
+
+## Tool
+- [Free Strong Password Generator](https://freestrongpassword.com/): 100% free strong password generator — no sign-up, no limits, no catch. Just strong passwords.
+
+## Blog
+- [Blog](https://freestrongpassword.com/blog/): Guides and tips about free password generator, strong password, no sign-up.
+
+## Key Facts
+- Free to use, no sign-up required
+- Client-side only — no data stored or transmitted
+- Cryptographically secure (crypto.getRandomValues)
+
+## Affiliate Disclosure
+This site may contain affiliate links to password managers.
