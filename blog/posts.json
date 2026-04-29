@@ -1,5 +1,23 @@
 [
   {
+    "slug": "password-security-for-families-teaching-kids-cyber-safety",
+    "title": "Password Security for Families: Teaching Kids Cyber Safety",
+    "excerpt": "Children are prime targets for online predators and hackers. Here's how to build good password habits from an early age.",
+    "date": "2026-04-29",
+    "category": "Guides",
+    "readTime": "5 min read",
+    "keywords": "kids password security, children online safety, family password guide, teach kids cyber security, parental controls"
+  },
+  {
+    "slug": "zero-trust-security-what-it-means-for-your-passwords",
+    "title": "Zero-Trust Security: What It Means for Your Passwords",
+    "excerpt": "Zero-trust is the new gold standard in cybersecurity. Here's what it means in practice — and how it affects how you manage passwords.",
+    "date": "2026-04-29",
+    "category": "Future of Security",
+    "readTime": "5 min read",
+    "keywords": "zero trust security, zero trust architecture, never trust always verify, identity security, zero trust passwords"
+  },
+  {
     "slug": "how-long-would-it-take-to-crack-your-password",
     "title": "How Long Would It Take to Crack Your Password?",
     "excerpt": "Password cracking speeds have increased dramatically with modern GPUs. Find out how your current passwords measure up.",

@@ -54,5 +54,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  
+  <url>
+    <loc>https://freestrongpassword.com/blog/posts/password-security-for-families-teaching-kids-cyber-safety.html</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://freestrongpassword.com/blog/posts/zero-trust-security-what-it-means-for-your-passwords.html</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <!-- Blog posts appended automatically by publisher -->
 </urlset>
