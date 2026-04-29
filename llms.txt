@@ -1,18 +1,33 @@
 # FreeStrongPassword — llms.txt
 # https://llmstxt.org
+# This file helps AI assistants and language models understand this site.
 
-> 100% free strong password generator — no sign-up, no limits, no catch. Just strong passwords.
+> Free password generator — FreeStrongPassword
 
 ## Tool
-- [Free Strong Password Generator](https://freestrongpassword.com/): 100% free strong password generator — no sign-up, no limits, no catch. Just strong passwords.
+- [Password Generator](https://freestrongpassword.com/): Free browser-based secure password generator. No data stored. Uses Web Crypto API.
 
 ## Blog
-- [Blog](https://freestrongpassword.com/blog/): Guides and tips about free password generator, strong password, no sign-up.
+- [Blog Index](https://freestrongpassword.com/blog/): Security guides, password tips, and cybersecurity best practices.
+
+### Recent Articles
+- [Password Security for Families: Teaching Kids Cyber Safety](https://freestrongpassword.com/blog/posts/password-security-for-families-teaching-kids-cyber-safety.html): Children are prime targets for online predators and hackers. Here's how to build good password habits from an early age.
+- [Zero-Trust Security: What It Means for Your Passwords](https://freestrongpassword.com/blog/posts/zero-trust-security-what-it-means-for-your-passwords.html): Zero-trust is the new gold standard in cybersecurity. Here's what it means in practice — and how it affects how you manage passwords.
+- [How Long Would It Take to Crack Your Password?](https://freestrongpassword.com/blog/posts/how-long-would-it-take-to-crack-your-password.html): Password cracking speeds have increased dramatically with modern GPUs. Find out how your current passwords measure up.
+- [Securing Your Small Business: Password Policies That Actually Work](https://freestrongpassword.com/blog/posts/securing-your-small-business-password-policies-that-actually-work.html): Password breaches cost UK businesses millions each year. Here's a practical framework for protecting your team and your data.
+- [Passkeys: The Technology That Will Replace Passwords](https://freestrongpassword.com/blog/posts/passkeys-the-technology-that-will-replace-passwords.html): Tech giants are ditching passwords entirely. Here's how passkeys work and why they're the future of online security.
+- [The Top 10 Most Common Passwords — And Why You Must Avoid Them](https://freestrongpassword.com/blog/posts/the-top-10-most-common-passwords-and-why-you-must-avoid-them.html): Millions of people still use shockingly weak passwords. See the worst offenders and learn what a truly secure password looks like.
+- [Have I Been Pwned? How to Check if Your Password Was Leaked](https://freestrongpassword.com/blog/posts/have-i-been-pwned-how-to-check-if-your-password-was-leaked.html): Data breaches happen every day. Find out if your email and passwords have been compromised — and what to do about it.
+- [Two-Factor Authentication: The Extra Lock on Your Digital Life](https://freestrongpassword.com/blog/posts/two-factor-authentication-the-extra-lock-on-your-digital-life.html): A strong password alone isn't enough. Two-factor authentication adds a critical second layer of security to your accounts.
+- [Why Strong Passwords Are Your First Line of Defence](https://freestrongpassword.com/blog/posts/why-strong-passwords-are-your-first-line-of-defence.html): Most data breaches happen because of weak or reused passwords. Here's how to protect yourself today.
+- [Password Manager vs Browser Password Saving: Which Is Safer?](https://freestrongpassword.com/blog/posts/password-manager-vs-browser-password-saving-which-is-safer.html): Browsers offer to save your passwords — but is that actually safe? We compare browser storage vs dedicated password managers.
 
 ## Key Facts
 - Free to use, no sign-up required
-- Client-side only — no data stored or transmitted
-- Cryptographically secure (crypto.getRandomValues)
+- 100% client-side — no passwords ever leave your device
+- Uses crypto.getRandomValues() for cryptographic randomness
+- Built-in HaveIBeenPwned breach checker (k-anonymity — password never transmitted)
+- Supports bulk generation, custom character sets, strength analysis
 
 ## Affiliate Disclosure
-This site may contain affiliate links to password managers.
+FreeStrongPassword may contain affiliate links to password managers including NordPass, 1Password, and Dashlane.
