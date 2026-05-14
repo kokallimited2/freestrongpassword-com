@@ -1,0 +1,73 @@
+name: Validate Site
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check core files present
+        run: |
+          for f in index.html blog.html about.html contact.html privacy-policy.html \
+                   affiliate-disclosure.html terms.html cookie-policy.html 404.html \
+                   robots.txt llms.txt sitemap.xml post.json README.md; do
+            [ ! -f "$f" ] && echo "MISSING: $f" && exit 1 || echo "OK: $f"
+          done
+
+      - name: Check all 6 blog posts exist
+        run: |
+          for slug in "what-makes-a-password-strong-simple-guide" "why-you-need-different-password-every-site" "best-free-password-managers-beginners-2026" "how-to-set-up-two-factor-authentication-simple" "what-to-do-if-you-think-youve-been-hacked" "common-password-mistakes-to-avoid"; do
+            [ ! -f "blog/${slug}.html" ] && echo "MISSING: blog/${slug}.html" && exit 1 || echo "OK: blog/${slug}.html"
+          done
+
+      - name: Validate blog post SEO requirements
+        run: |
+          for f in blog/*.html; do
+            grep -q 'rel="canonical"'  "$f" || { echo "MISSING canonical: $f"; exit 1; }
+            grep -q 'TechArticle'       "$f" || { echo "MISSING TechArticle: $f"; exit 1; }
+            grep -q 'BreadcrumbList'    "$f" || { echo "MISSING BreadcrumbList: $f"; exit 1; }
+            grep -q 'FAQPage'           "$f" || { echo "MISSING FAQPage: $f"; exit 1; }
+            grep -q 'og:image'          "$f" || { echo "MISSING og:image: $f"; exit 1; }
+            echo "OK: $f"
+          done
+
+      - name: Validate post.json structure
+        run: |
+          python3 -c "
+import json
+with open('post.json') as f: d=json.load(f)
+posts=d.get('posts',[])
+assert len(posts)==6, f'Expected 6 posts, got {len(posts)}'
+featured=[p for p in posts if p.get('featured')]
+assert len(featured)==1, f'Expected 1 featured, got {len(featured)}'
+for p in posts:
+    assert 'url' in p and p['url'].startswith('/blog/'), f'Bad url: {p.get("slug")}'
+    assert 'content' not in p, f'Content field found — post.json must be metadata only: {p.get("slug")}'
+print(f'post.json valid: {len(posts)} posts, 1 featured, all with /blog/ urls')
+"
+
+      - name: blog.html must NOT use openP() modal
+        run: |
+          grep -q 'openP(' blog.html && echo 'ERROR: blog.html uses modal' && exit 1
+          echo 'OK: no modal in blog.html'
+
+      - name: sitemap.xml must include 6 blog post URLs
+        run: |
+          count=$(grep -c '/blog/' sitemap.xml || echo 0)
+          [ "$count" -lt 6 ] && echo "ERROR: only $count /blog/ URLs in sitemap" && exit 1
+          echo "OK: $count /blog/ URLs in sitemap"
+
+      - name: about.html must have Person and Organization schema
+        run: |
+          grep -q 'Person'       about.html || { echo "MISSING Person schema"; exit 1; }
+          grep -q 'Organization' about.html || { echo "MISSING Organization schema"; exit 1; }
+          echo "OK: about.html schemas present"
+
+      - name: index.html must not use Math.random
+        run: |
+          grep -q 'Math\.random()' index.html && echo 'ERROR: Math.random() found in index.html' && exit 1
+          echo 'OK: no Math.random in index.html'

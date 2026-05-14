@@ -1,0 +1,86 @@
+{
+  "site": {
+    "name": "Free Strong Password",
+    "domain": "freestrongpassword.com"
+  },
+  "posts": [
+    {
+      "slug": "what-makes-a-password-strong-simple-guide",
+      "url": "/blog/what-makes-a-password-strong-simple-guide.html",
+      "title": "What Makes a Password Strong? A Simple Guide",
+      "date": "8 May 2026",
+      "dateiso": "2026-05-08",
+      "category": "Beginner Guides",
+      "emoji": "\ud83d\udd11",
+      "readtime": "6 min",
+      "featured": true,
+      "excerpt": "Most people think a strong password needs lots of symbols. That's actually wrong. This plain-English guide explains what really makes a password safe.",
+      "author": "Emma Watts, Digital Safety Writer"
+    },
+    {
+      "slug": "why-you-need-different-password-every-site",
+      "url": "/blog/why-you-need-different-password-every-site.html",
+      "title": "Why You Need a Different Password for Every Website",
+      "date": "4 May 2026",
+      "dateiso": "2026-05-04",
+      "category": "Beginner Guides",
+      "emoji": "\ud83c\udf10",
+      "readtime": "5 min",
+      "featured": false,
+      "excerpt": "Using the same password everywhere is one of the most dangerous things you can do online. Here's why \u2014 and the simple fix.",
+      "author": "Emma Watts, Digital Safety Writer"
+    },
+    {
+      "slug": "best-free-password-managers-beginners-2026",
+      "url": "/blog/best-free-password-managers-beginners-2026.html",
+      "title": "The Best Free Password Managers for Beginners (2026)",
+      "date": "29 Apr 2026",
+      "dateiso": "2026-04-29",
+      "category": "Tools",
+      "emoji": "\ud83d\udddd\ufe0f",
+      "readtime": "8 min",
+      "featured": false,
+      "excerpt": "You can't remember a different strong password for every site \u2014 and you shouldn't have to. A password manager does it for you. Here are the best free options.",
+      "author": "Emma Watts, Digital Safety Writer"
+    },
+    {
+      "slug": "how-to-set-up-two-factor-authentication-simple",
+      "url": "/blog/how-to-set-up-two-factor-authentication-simple.html",
+      "title": "How to Set Up Two-Factor Authentication \u2014 Simple Steps",
+      "date": "23 Apr 2026",
+      "dateiso": "2026-04-23",
+      "category": "How-To Guides",
+      "emoji": "\ud83d\udee1\ufe0f",
+      "readtime": "7 min",
+      "featured": false,
+      "excerpt": "Two-factor authentication makes your accounts much harder to break into \u2014 even if someone knows your password. Simple step-by-step guide.",
+      "author": "Emma Watts, Digital Safety Writer"
+    },
+    {
+      "slug": "what-to-do-if-you-think-youve-been-hacked",
+      "url": "/blog/what-to-do-if-you-think-youve-been-hacked.html",
+      "title": "What to Do If You Think You've Been Hacked",
+      "date": "16 Apr 2026",
+      "dateiso": "2026-04-16",
+      "category": "How-To Guides",
+      "emoji": "\ud83d\udea8",
+      "readtime": "7 min",
+      "featured": false,
+      "excerpt": "Don't panic. Follow these steps in order. A calm, plain-English guide to recovering a hacked account.",
+      "author": "Emma Watts, Digital Safety Writer"
+    },
+    {
+      "slug": "common-password-mistakes-to-avoid",
+      "url": "/blog/common-password-mistakes-to-avoid.html",
+      "title": "7 Common Password Mistakes (And How to Fix Them)",
+      "date": "9 Apr 2026",
+      "dateiso": "2026-04-09",
+      "category": "Beginner Guides",
+      "emoji": "\u26a0\ufe0f",
+      "readtime": "6 min",
+      "featured": false,
+      "excerpt": "Most people make at least one of these password mistakes without realising it. Here's how to spot them and fix them quickly.",
+      "author": "Emma Watts, Digital Safety Writer"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# robots.txt — freestrongpassword.com
+User-agent: *
+Allow: /
+Disallow: /assets/drafts/
+Disallow: /admin/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://freestrongpassword.com/sitemap.xml

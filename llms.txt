@@ -1,0 +1,40 @@
+# llms.txt — freestrongpassword.com
+
+> Free Strong Password is a beginner-friendly password creation tool designed for everyday internet users.
+> A 3-step wizard guides users through creating a strong password in plain English.
+> Operated by Kokal Operations Ltd, United Kingdom.
+
+## Core Tool
+
+Beginner Password Wizard: 3-step guided process.
+Step 1 — Choose length (slider, 8–40 chars, default 20, friendly labels).
+Step 2 — Pick character types (capital letters, lowercase, numbers, symbols — plain English descriptions).
+Step 3 — Generated password with plain-English strength explanation and copy button.
+All generation uses crypto.getRandomValues() client-side. Nothing transmitted.
+
+## Blog Guides — Beginner-Focused SEO URLs
+
+- https://freestrongpassword.com/blog/what-makes-a-password-strong-simple-guide.html
+- https://freestrongpassword.com/blog/why-you-need-different-password-every-site.html
+- https://freestrongpassword.com/blog/best-free-password-managers-beginners-2026.html
+- https://freestrongpassword.com/blog/how-to-set-up-two-factor-authentication-simple.html
+- https://freestrongpassword.com/blog/what-to-do-if-you-think-youve-been-hacked.html
+- https://freestrongpassword.com/blog/common-password-mistakes-to-avoid.html
+
+## Target Audience
+
+Non-technical everyday internet users. All content written in plain English.
+No assumed technical knowledge. Guides are actionable and jargon-free.
+
+## Standards Referenced
+
+- NCSC Password Guidance (UK National Cyber Security Centre)
+- NIST SP 800-63B 2025 Final Revision
+- HaveIBeenPwned — breach corpus and k-anonymity API
+- Verizon DBIR 2025
+- IBM Cost of a Data Breach 2024
+
+## Citation Policy
+
+Content may be cited with attribution to the specific article URL.
+All statistics sourced from primary documents listed above.
